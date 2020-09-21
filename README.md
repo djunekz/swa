@@ -1,18 +1,31 @@
 # swa
 ~~~~~SPAM WHATSAPP~~~~~
 
-KETERANGAN
+# Keterangan
+```
 (Trouble) > Sedang bermasalah
 (Maintenance) > Sedang perbaikan
+```
 
-PENGGUNAAN
-$ python swa.py
+**==> Run : $ `python swa.py`**
 
+**Catatan**
+```
 Untuk -nomor whatsapp- gunakan awalan 62 atau 0
+```
 
-PEMASANGAN
+# Installation
+
+**Manual Install**
+```
 $ apt update && upgrade
 $ pkg install python
 $ git clone https://github.com/djunekz/swa
 $ cd swa
 $ python swa.py
+```
+
+**Single Install (Auto)**
+```
+apt update && apt upgrade && pkg install python git && git clone https://github.com/djunekz/swa && cd swa && python swa.py
+```
